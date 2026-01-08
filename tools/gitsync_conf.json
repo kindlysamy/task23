@@ -1,7 +1,7 @@
 {
   "globals": {
     "storage-user": "DeployGit",
-    "storage-pwd": "",
+    "storage-pwd": "1234",
     "git-path": "git",
     "domain-email": "otus.ru",
     "lic-try-count": 5,
@@ -24,12 +24,12 @@
   "repositories": [
     {
       "name": "otus",
-      "path": "tcp://KyralesGun/Storage/storage.1ccr/StorageOtus",
+      "path": "C:/Storage1C/StorageOtus",
       "dir": "./src/cf",
       "temp-dir": "",
-      "v8version": "8.3.25.1546",
+      "v8version": "8.3.25.1374",
       "plugins-config": {
-        "URL": "https://github.com/Kyrales/otus_JenkinsExample.git"
+        "URL": "https://github.com/kindlysamy/task23.git"
       }
     },
     {
@@ -38,9 +38,9 @@
         "path": "tcp://KyralesGun/Storage/storage.1ccr/StorageOtus_yaxunit",
         "dir": "./src/cfe/yaxunit",
         "temp-dir": "",
-        "v8version": "8.3.25.1546",
+        "v8version": "8.3.25.1374",
         "plugins-config": {
-          "URL": "https://github.com/Kyrales/otus_JenkinsExample.git"
+          "URL": "https://github.com/kindlysamy/task23.git"
         }
      }
   ]
